@@ -94,7 +94,7 @@ df_time = df[
 # ---------------------------
 # 3️⃣ Onglets : Graphiques / Carte
 # ---------------------------
-tab_graph, tab_map = st.tabs(["📊 Graphiques                   ", "🗺 Carte"])
+tab_graph, tab_map = st.tabs(["📊 Graphiques                   .", "🗺 Carte"])
 
 # -------------------- Onglet Graphiques --------------------
 with tab_graph:
@@ -226,6 +226,7 @@ with tab_map:
 
     # Afficher la carte
     st_folium(p, width=1600, height=800)
+
 
 
 

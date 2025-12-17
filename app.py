@@ -63,6 +63,8 @@ df = données
 
 # ---------------------------
 # 2️⃣ Sidebar : filtres
+# ⚠️ Doit être le premier appel Streamlit.
+st.set_page_config(layout="wide")
 # ---------------------------
 st.sidebar.header("Filtres")
 
@@ -224,6 +226,7 @@ with tab_map:
 
     # Afficher la carte
     st_folium(p, width=1600, height=800)
+
 
 
 

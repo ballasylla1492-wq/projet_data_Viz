@@ -222,11 +222,11 @@ with tab_map:
 
         layer.add_to(p)
         colormap.add_to(p)
-        folium.LayerControl(collapsed=False).add_to(p)
 
 
     # Afficher la carte
     st_folium(p, width=1600, height=800)
+
 
 
 
